@@ -73,7 +73,9 @@
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 24px;
-
+}
+.person-para{
+    color: #737272;
 }
 ul{
     list-style: none;
@@ -81,6 +83,8 @@ ul{
 li{
     position:relative;
     margin-bottom: 8px;
+    color: #737272;
+
 }
 ul li::before{
     content:'✓';
@@ -94,4 +98,27 @@ ul li::before{
     margin-top: 130px;
     margin-bottom: 50px;
 }
+.plan-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+.plans{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.plans-title{
+    text-align: center;
+    color: #737272;
+
+}
+.gradient{
+    height: 200px;
+  background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgb(255, 145, 0) , rgb(244, 244, 244));
+  margin: 87px 300px;
+} 
 
