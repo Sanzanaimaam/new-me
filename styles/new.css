@@ -1,0 +1,97 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.banner-container{
+    background-image: url('../images/banner/banner3.png');
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.banner-details{
+    margin-bottom: 100px;
+    margin-right: 200px;
+}
+.banner-headline{
+    
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+}
+.banner-para{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 32px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+    color:#005FAC;
+    font-weight: 600;
+    font-size: 20px;    
+}
+.freelancing{
+    display: flex;
+    gap:100px;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(1, 1, 44);
+    margin: 100px 300px;
+    padding: 70px 50px;
+    border-radius: 10px ;
+    box-shadow: 5px 8px rgb(205, 205, 205);
+}
+.freelancing-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.person-container{
+    display:flex;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    margin-right:87px;
+   
+}
+.person-text{
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.person-headline{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+
+}
+ul{
+    list-style: none;
+}
+li{
+    position:relative;
+    margin-bottom: 8px;
+}
+ul li::before{
+    content:'✓';
+    color: green;
+    margin-right: 20px;
+}
+.plan-headline {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
