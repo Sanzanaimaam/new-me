@@ -115,10 +115,80 @@ ul li::before{
     color: #737272;
 
 }
-.gradient{
+/* .gradient{
     height: 200px;
-  background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+  background-color: rgb(255, 255, 255); 
   background-image: linear-gradient(to right, rgb(255, 145, 0) , rgb(244, 244, 244));
   margin: 87px 300px;
-} 
-
+  (to left, rgb(213, 216, 219), rgba(4, 48, 192, 0.481))
+}  */
+.gradient{
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(0, 95, 172, 0.697), rgb(0, 0, 0,0)), 
+     url('../images/watch.png');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    margin: 130px 230px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.gradient-container{
+    font-size:15px;
+    color: #FFFFFF;
+    margin-left: 60px;
+   
+    
+}
+.gradient-head{
+    font-weight: 700;
+font-size: 40px;
+}
+.call-btn{
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: none;
+}
+.end-container{
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: black;
+    padding-top: 130px;
+}
+.social-medias{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 130px;
+}
+address a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+::placeholder{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+input{
+    width: 200px;
+    border-radius: 3px;
+    height: 40px;
+    border: none;
+    padding: 0px 18px;
+    background-color: black;
+    color: #FFFFFF;
+    border: 1px solid;
+}
+.Subscribe-btn{
+    background-color: #005FAC;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 20px;   
+}
